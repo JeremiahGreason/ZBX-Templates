@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>2.0</version>
+    <date>2015-01-28T16:58:23Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0</template>
+            <name>BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>CPU</name>
+                </application>
+                <application>
+                    <name>General</name>
+                </application>
+                <application>
+                    <name>Memory</name>
+                </application>
+                <application>
+                    <name>Services</name>
+                </application>
+                <application>
+                    <name>Stats</name>
+                </application>
+                <application>
+                    <name>Storage</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>Cisco CCBU Support Tools NodeAgent</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>service_state[Cisco CCBU Support Tools NodeAgent]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Services</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>Cisco CVP CallServer</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>service_state[Cisco CVP CallServer]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Services</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>Cisco CVP Resource Manager</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>service_state[Cisco CVP Resource Manager]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Services</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>Cisco CVP SNMP Management</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>service_state[Cisco CVP SNMP Management]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Services</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>Cisco CVP WebServicesManager</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>service_state[Cisco CVP WebServicesManager]</key>
+                    <delay>30</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Services</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Service state</name>
+                    </valuemap>
+                </item>
+                <item>
+                    <name>CPU 1 usage</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.3.3.1.2.1</snmp_oid>
+                    <key>system.cpu.load.avg.1</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU 2 usage</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.3.3.1.2.2</snmp_oid>
+                    <key>system.cpu.load.avg.2</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU 3 usage</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.3.3.1.2.3</snmp_oid>
+                    <key>system.cpu.load.avg.3</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU 4 usage</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.3.3.1.2.4</snmp_oid>
+                    <key>system.cpu.load.avg.4</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>CPU Usage Total %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>total.cpu.usage</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params>(last(system.cpu.load.avg.1)+&#13;
+last(system.cpu.load.avg.2)+&#13;
+last(system.cpu.load.avg.3)+&#13;
+last(system.cpu.load.avg.4))/4</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 1 Free %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>1</multiplier>
+                    <snmp_oid/>
+                    <key>system.hdd.freep</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>100</formula>
+                    <delay_flex/>
+                    <params>(last(system.hdd.size)-last(system.hdd.used))/last(system.hdd.size)</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 1 Size</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.3</snmp_oid>
+                    <key>system.hdd.size</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 1 Used</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.3</snmp_oid>
+                    <key>system.hdd.used</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 2 Free %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>1</multiplier>
+                    <snmp_oid/>
+                    <key>system.hddd.freep</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>100</formula>
+                    <delay_flex/>
+                    <params>(last(system.hddd.size)-last(system.hddd.used))/last(system.hddd.size)</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 2 Size</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.4</snmp_oid>
+                    <key>system.hddd.size</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 2 Used</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.4</snmp_oid>
+                    <key>system.hddd.used</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 3 Free %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>1</multiplier>
+                    <snmp_oid/>
+                    <key>system.hdde.freep</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>100</formula>
+                    <delay_flex/>
+                    <params>(last(system.hdde.size)-last(system.hdde.used))/last(system.hdde.size)</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 3 Size</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.6</snmp_oid>
+                    <key>system.hdde.size</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Fixed Disk 3 Used</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.6</snmp_oid>
+                    <key>system.hdde.used</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Storage</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Host local time</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.1.2.0</snmp_oid>
+                    <key>system.localtime</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>General</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Host name</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.1.5.0</snmp_oid>
+                    <key>system.hostname</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>1</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>General</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Host uptime</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.1.1.0</snmp_oid>
+                    <key>system.uptime</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>uptime</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>0.01</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>General</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Physical Memory Free %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>1</multiplier>
+                    <snmp_oid/>
+                    <key>system.ram.freep</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>100</formula>
+                    <delay_flex/>
+                    <params>(last(system.ram.size)-last(system.ram.used))/last(system.ram.size)</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Physical Memory Size</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.1</snmp_oid>
+                    <key>system.ram.size</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Physical Memory Used</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.1</snmp_oid>
+                    <key>system.ram.used</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex>50/1-7,00:00-24:00</delay_flex>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Average Latency</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.11.1</snmp_oid>
+                    <key>ccvpSipAggAvgLatency1</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate average latency first (transfer) object is a&#13;
+metric indicating the average period of time elapsed between&#13;
+receipt of the CONNECT message from the ICM and the moment&#13;
+when the call is actually answered, on the first transfer&#13;
+request for the calls. The object value is the computed&#13;
+average latency, since service start, for all calls that have&#13;
+been answered on the first transfer. The first transfer in&#13;
+comprehensive deployments is typically to the VXML gateway,&#13;
+which will answer quickly. In call director deployments, the&#13;
+first transfer may be to an agent or another SIP endpoint in&#13;
+the network, such as an automatic call distributor (ACD).&#13;
+The object value computation does not include REFER&#13;
+transfer latency.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Average Latency 2</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.12.1</snmp_oid>
+                    <key>ccvpSipAggAvgLatency2</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate average latency second (transfer) object is a&#13;
+metric indicating the average period of time elapsed between&#13;
+receipt of the CONNECT message from the ICM and the moment&#13;
+when the call is actually answered, on the second and&#13;
+subsequent transfer requests for the calls. The object value&#13;
+is the computed average latency, since service start, for all&#13;
+calls that have been answered on the second or subsequent&#13;
+transfers. The second transfer in comprehensive deployments&#13;
+is typically to the agent on the Call Manager, and will&#13;
+indicate the average time to answer for agents. The&#13;
+computed object value does not include intermediate calls to&#13;
+play ringback for callers during subsequent CVP transfers.&#13;
+The object value computation does not include REFER&#13;
+transfer latency.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Connects Received</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.10.1</snmp_oid>
+                    <key>ccvpSipAggConnectsRcv</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate connects received object is a metric&#13;
+indicating the number of SIP CONNECT messages received by the&#13;
+SIP service in order to perform a Customer Voice Portal&#13;
+transfer, since service start. This object value includes&#13;
+regular CVP transfers as well as REFER transfers. Any label&#13;
+coming from the ICM service is considered to be a CONNECT&#13;
+message, whether it is a label to send the call to the VRU or&#13;
+a label to transfer the call to an agent.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Failed Transfers Post-Dialog</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.14.1</snmp_oid>
+                    <key>ccvpSipAggFailedXferPost</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate failed transfers post-dialog object is a count&#13;
+of failed transfers on second and subsequent Customer Voice&#13;
+Portal transfers since service start. After SIP dialog is&#13;
+established, CVP performs SIP transfers using re-INVITE&#13;
+messages. The object value does not include rejections of&#13;
+SIP REFER transfers. The object value does include failed&#13;
+transfers that were attempted after a label was returned by&#13;
+the ICM within a CONNECT message body.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Failed Transfers Pre-Dialog</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.13.1</snmp_oid>
+                    <key>ccvpSipAggFailedXferPre</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate failed transfers pre-dialog object is a count&#13;
+of failed transfers on the first Customer Voice Portal&#13;
+transfer since service start. A SIP dialog is established&#13;
+after the first CVP transfer is completed. The object value&#13;
+does not include rejections due to the SIP service being in&#13;
+an 'out of service' state. The object value does include&#13;
+failed transfers that were attempted after a label was&#13;
+returned by the ICM within a CONNECT message body.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate New Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.9.1</snmp_oid>
+                    <key>ccvpSipAggNewCalls</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate new calls object is a metric indicating the&#13;
+number of SIP INVITE messages received by the Customer Voice&#13;
+Portal application since service start. The object value&#13;
+includes failed calls as well as calls rejected due to the&#13;
+SIP service being in an 'out of service' state.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Real-Time Basic Video Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.19.1</snmp_oid>
+                    <key>ccvpSipAggBasicVideoOffered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The aggregate basic video calls object is a metric indicating&#13;
+a count of active calls being handled by the CVP SIP service&#13;
+that have had video capability offered by the callers since&#13;
+the start of the system. Video capabilites are negotiated&#13;
+by caller and callee in order for two way video to occur&#13;
+on a call.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Aggregate Real-Time Basic Video Calls Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.20.1</snmp_oid>
+                    <key>ccvpSipAggBasicVideoAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval basic video calls object is a metric indicating a&#13;
+count of calls that have been handled by the CVP SIP service&#13;
+that have been handled by an IVR or Agent capable of handling&#13;
+video services since the start of the system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Current Active Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.1.1</snmp_oid>
+                    <key>ccvpSipRtActiveCalls</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The real-time active calls object is a real-time snapshot&#13;
+metric indicating a count of active calls being handled by&#13;
+the CVP SIP service. It will not include H323 calls.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Current Call Legs</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.2.1</snmp_oid>
+                    <key>ccvpSipRtTotalCallLegs</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The real-time total call legs object is a real-time snapshot&#13;
+metric indicating a count of the number of SIP call legs&#13;
+being handled by the SIP service. A call leg is also known&#13;
+as a SIP dialog. The object value includes incoming,&#13;
+outgoing and ringtone type call legs. For each active call&#13;
+in the SIP subsystem, there will be an incoming call leg and&#13;
+an outgoing call leg to the destination of the transfer&#13;
+label.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Average Latency</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.5.1</snmp_oid>
+                    <key>ccvpSipIntAvgLatency1</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>The interval average latency first object is a metric&#13;
+indicating the average period of time elapsed between the&#13;
+arrival of a CONNECT message from ICM and when the call is&#13;
+actually answered, on the first transfer request for the&#13;
+calls. The object value also includes the average latency&#13;
+computation for all the calls that have been answered on the&#13;
+first transfer since system start. The first transfer in&#13;
+comprehensive deployments is typically to the VXML gateway,&#13;
+which will answer quickly. In call director deployments, the&#13;
+first transfer may be to an agent or to another SIP endpoint&#13;
+in the network, such as an automatic call distributor (ACD).&#13;
+This object value calculation does not include latency for&#13;
+REFER transfers.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Average Latency 2</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.6.1</snmp_oid>
+                    <key>ccvpSipIntAvgLatency2</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval average latency second object is a metric&#13;
+indicating the average period of time between the arrival of&#13;
+a CONNECT message from ICM and when the call is actually&#13;
+answered, on the second and subsequent transfer request for&#13;
+the call. The object value reflects the average latency&#13;
+computation for all of the calls that have been answered on&#13;
+the second and any subsequent transfers since system start.&#13;
+The second transfer in comprehensive deployments is typically&#13;
+to the agent on the Call Manager, and will indicate the&#13;
+average time to answer for agents. The computation for this&#13;
+metric does not include intermediate calls to play ringback&#13;
+for callers during subsequent Customer Voice Portal&#13;
+transfers. This object value calculation does not include&#13;
+latency for REFER transfers.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Connects Received</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.4.1</snmp_oid>
+                    <key>ccvpSipIntConnectsRcv</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval connects received object is a metric indicating&#13;
+the number of CONNECT messages received by the SIP service in&#13;
+order to perform a Customer Voice Portal transfer, since&#13;
+system start. The object value also includes the regular CVP&#13;
+transfers as well as 'Refer' transfers. Any label coming&#13;
+from the ICM service is considered a CONNECT message, whether&#13;
+it is a label to send to the VRU or a label to transfer to an&#13;
+agent.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Failed Transfers Post-Dialog</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.8.1</snmp_oid>
+                    <key>ccvpSipIntFailedXferPost</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval failed transfers post-dialog object is a metric&#13;
+indicating the total number of failed transfers on second&#13;
+and subsequent Customer Voice Portal transfers since system&#13;
+start. After a SIP dialog is established, CVP performs SIP&#13;
+transfers using re-INVITE messages. The object value does&#13;
+not include rejections of SIP REFER transfers. The object&#13;
+value does include failed transfers that were attempted after&#13;
+a label was returned from the ICM within the CONNECT message&#13;
+body.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Failed Transfers Pre-Dialog</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.7.1</snmp_oid>
+                    <key>ccvpSipIntFailedXferPre</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval failed transfers pre-dialog object is a metric&#13;
+indicating the total number of failed transfers on the first&#13;
+Customer Voice Portal transfer since system start. A SIP&#13;
+dialog is established after the first CVP transfer is&#13;
+completed. The object value does not include rejections due&#13;
+to the SIP service being in an 'out of service' state. The&#13;
+object value does include failed transfers that were&#13;
+attempted after a label was returned from the ICM within the&#13;
+CONNECT message body.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Greeting Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.24.1</snmp_oid>
+                    <key>ccvpSipIntGreetingAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval greeting answered object is a metric indicating&#13;
+Number of agent greeting playback calls which were answered&#13;
+since the start of the system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Greeting Failed</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.25.1</snmp_oid>
+                    <key>ccvpSipIntGreetingFailed</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval greeting failed object is a metric indicating&#13;
+Number of agent greeting playback calls which failed since the&#13;
+start of the system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval New Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.3.1</snmp_oid>
+                    <key>ccvpSipIntNewCalls</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval new calls object is a metric indicating the&#13;
+number of SIP INVITE messages received by CVP since system&#13;
+start time. The object value also includes failed calls as&#13;
+well as calls rejected due to the SIP service being in an&#13;
+'out of service' state.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Post Call Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.21.1</snmp_oid>
+                    <key>ccvpSipIntPostCallAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval post call answered object is a metric indicating&#13;
+Number of Post Call Survey calls which were answered since the&#13;
+start of the system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Real-Time Basic Video Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.17.1</snmp_oid>
+                    <key>ccvpSipIntBasicVideoOffered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval basic video calls object is an interval&#13;
+metric indicating a count of active calls being handled by&#13;
+the CVP SIP service that have had video capability offered&#13;
+by the caller. Video capabilites are negotiated by caller and&#13;
+callee in order for two way video to occur on a call. The&#13;
+interval at which this object is updated is defined by&#13;
+ccvpServiceIntPeriod.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Real-Time Basic Video Calls Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.18.1</snmp_oid>
+                    <key>ccvpSipIntBasicVideoAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval basic video calls object is an interval&#13;
+metric indicating a count of active calls being handled by&#13;
+the CVP SIP service that was handled by an IVR or Agent capable&#13;
+of handling video services. The interval at which this object&#13;
+is updated is defined by ccvpServiceIntPeriod.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Whisper Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.22.1</snmp_oid>
+                    <key>ccvpSipIntWhisperAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval whisper answered object is a metric indicating&#13;
+Number of calls to the whisper service which were answered since&#13;
+the start of the system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Interval Whisper Failed</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.23.1</snmp_oid>
+                    <key>ccvpSipIntWhisperFailed</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The interval whisper failed object is a metric indicating&#13;
+Number of&#13;
+calls to the whisper service which failed since the start of the&#13;
+system.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Real-Time Basic Video Calls</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.15.1</snmp_oid>
+                    <key>ccvpSipRtBasicVideoOffered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The real-time basic video calls object is a real-time snapshot&#13;
+metric indicating a count of active calls being handled by&#13;
+the CVP SIP service that have had video capability offered&#13;
+by the caller. Video capabilites are negotiated by caller and&#13;
+callee in order for two way video to occur on a call.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Sip Real-Time Basic Video Calls Ans</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>1.3.6.1.4.1.9.9.590.1.6.1.1.16.1</snmp_oid>
+                    <key>ccvpSipRtBasicVideoAnswered</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>&quot;The real-time basic video calls object is a real-time snapshot&#13;
+metric indicating a count of active calls being handled by&#13;
+the CVP SIP service that was answered by an IVR or Agent&#13;
+capable of handling video services.&quot;</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Stats</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Virtual Memory Free %</name>
+                    <type>15</type>
+                    <snmp_community/>
+                    <multiplier>1</multiplier>
+                    <snmp_oid/>
+                    <key>system.vm.freep</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>%</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>100</formula>
+                    <delay_flex/>
+                    <params>(last(system.vm.size)-last(system.vm.used))/last(system.vm.size)</params>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Virtual Memory Size</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.2</snmp_oid>
+                    <key>system.vm.size</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>Virtual Memory Used</name>
+                    <type>4</type>
+                    <snmp_community>{$COMMUNITY_STRING}</snmp_community>
+                    <multiplier>1</multiplier>
+                    <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.2</snmp_oid>
+                    <key>system.vm.used</key>
+                    <delay>30</delay>
+                    <history>7</history>
+                    <trends>7</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privpassphrase/>
+                    <formula>4096</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+            </items>
+            <discovery_rules/>
+            <macros>
+                <macro>
+                    <macro>{$COMMUNITY_STRING}</macro>
+                    <value/>
+                </macro>
+            </macros>
+            <templates/>
+            <screens/>
+        </template>
+    </templates>
+    <triggers>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:service_state[Cisco CCBU Support Tools NodeAgent].last(0)}#0</expression>
+            <name>Cisco CCBU Support Tools NodeAgent Service Not Running</name>
+            <url/>
+            <status>1</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:service_state[Cisco CVP CallServer].last(0)}#0</expression>
+            <name>Cisco CVP CallServer Service Not Running</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:service_state[Cisco CVP Resource Manager].last(0)}#0</expression>
+            <name>Cisco CVP Resource Manager Service Not Running</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:service_state[Cisco CVP SNMP Management].last(0)}#0</expression>
+            <name>Cisco CVP SNMP Management Service Not Running</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:service_state[Cisco CVP WebServicesManager].last(0)}#0</expression>
+            <name>Cisco CVP WebServicesManager Service Not Running</name>
+            <url/>
+            <status>1</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:total.cpu.usage.avg(300)}&gt;74</expression>
+            <name>CPU Usage is 75% for 5 Minutes on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.ram.freep.last(0,30)}&lt;5</expression>
+            <name>Free Memory less than 5% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.ram.freep.last(0)}&lt;11</expression>
+            <name>Free Memory less than 11% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.ram.freep.last(0)}&lt;20</expression>
+            <name>Free Memory less than 20% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdd.freep.last(0,30)}&lt;5</expression>
+            <name>Free space Disk 1 less than 5% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdd.freep.last(0,30)}&lt;11</expression>
+            <name>Free space Disk 1 less than 11% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdd.freep.last(0)}&lt;20</expression>
+            <name>Free space Disk 1 less than 20% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hddd.freep.last(0,30)}&lt;5</expression>
+            <name>Free space Disk 2 less than 5% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hddd.freep.last(0,30)}&lt;11</expression>
+            <name>Free space Disk 2 less than 11% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hddd.freep.last(0)}&lt;20</expression>
+            <name>Free space Disk 2 less than 20% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdde.freep.last(0,30)}&lt;5</expression>
+            <name>Free space Disk 3 less than 5% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdde.freep.last(0,30)}&lt;11</expression>
+            <name>Free space Disk 3 less than 11% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.hdde.freep.last(0,30)}&lt;20</expression>
+            <name>Free space Disk 3 less than 20% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.vm.freep.last(0,30)}&lt;10</expression>
+            <name>Free Virtual Memory less than 10% on {HOST.NAME}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{BASEDNU_CTP_NMSTemplate_CVP_Base_v3.0:system.uptime.last(0)}&lt;600</expression>
+            <name>{HOSTNAME} has not sent uptime in 10 minutes</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description/>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+    </triggers>
+</zabbix_export>
